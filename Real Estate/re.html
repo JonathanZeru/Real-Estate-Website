@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="re.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  -->
+</head>
+
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="re.html" class="logo"><img src="SVGs/Home_duotone.svg" alt="">The Neighborhood</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#popular">popular</a>
+            <a href="#service">service</a>
+            <a href="#order">order</a>
+            <a href="#blog">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="ri-menu-line">
+                <img width="50%" height="60%" src="Icons/Sort.svg" alt="" style="margin-top: 8px;">
+            </div>
+            <div id="search-btn" class="ri-search-line">
+                <img width="50%" height="60%" src="Icons/search.svg" alt="" style="margin-top: 8px;">
+            </div>
+            <div id="cart-btn" class="ri-shopping-cart-line">
+                <img width="50%" height="60%" src="Icons/cart.svg" alt="" style="margin-top: 8px;">
+            </div>
+            <div id="login-btn" class="ri-user-line">
+                <img width="50%" height="60%" src="Icons/profile.svg" alt="" style="margin-top: 8px;">
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header section ends  -->
+
+
+    <!-- search-form start -->
+
+    <section class="search-form-container">
+
+        <form action="">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="ri-search-line"></label>
+        </form>
+
+    </section>
+
+    <!-- search-form end -->
+
+
+    <!-- shopping-cart section start -->
+
+    <section class="shopping-cart-container">
+
+        <div class="products-container">
+
+            <h3 class="title">your products</h3>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>Two bedroom</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $3500000.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>One bedroom</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $3000000.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>Apartment</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $2500000.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>Three bedroom</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $3900000.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="ri-close-line close-icon"></i>
+                    <img src="image/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>Studio</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" min="1" value="1" id="">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $380000.00</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cart-total">
+
+            <h3 class="title"> cart total </h3>
+
+            <div class="box">
+                <h3 class="subtitle">subtitle: <span>$200</span> </h3>
+                <h3 class="total"> total : <span>$200</span> </h3>
+
+                <a href="#" class="btn">proceed to Buy</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- shopping-cart section end -->
+
+
+    <!-- login-form start -->
+
+    <div class="login-form-container">
+
+        <form action="">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="#">click here</a> </p>
+            <p>donot have an account? <a href="#">create one</a> </p>
+        </form>
+
+    </div>
+
+    <!-- login-form end -->
+
+
+    <!-- home section starts  -->
+    <span id="home"></span>
+    <div data-aos="fade-up" id="pSlider">
+        <ol id="slider-container" dir="ltr">
+            <li id="slide_1" class="li_slide">
+                <div class="slide-snapper home">
+
+                      
+                            <h1 data-aos="fade-up" style="text-align: center; font-size: 30px; font-weight: bolder;">
+                                Welcome to The
+                                Neighborhood Real estate</h1>
+                            <h3 data-aos="fade-up" style="text-align: center;">Find your dream place</h3>
+                            <p data-aos="fade-up" style="text-align: center;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo quod architecto
+                             </p>
+                            <div style="justify-content: center; display: flex;">
+                                <div data-aos="fade-right">
+                                    <a href="#popular" class="btn" style="margin-right: 20px;">Buy now</a>
+                                </div>
+                                <div data-aos="fade-left">
+                                    <a href="#popular" class="btn">Explore</a>
+                                </div>
+                            </div>
+
+                </div>
+                <a class="prev_slide" href="#slide_4"></a>
+                <a class="next_slide" href="#slide_2"></a>
+            </li>
+            <li id="slide_2" class="li_slide">
+                <div class="slide-snapper home">
+
+                      
+                    <h1 data-aos="fade-up" style="text-align: center; font-size: 30px; font-weight: bolder;">
+                        Welcome to The
+                        Neighborhood Real estate</h1>
+                    <h3 data-aos="fade-up" style="text-align: center;">Find your dream place</h3>
+                    <p data-aos="fade-up" style="text-align: center;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo quod architecto
+                        est, sint optio
+                    </p>
+                    <div style="justify-content: center; display: flex;">
+                        <div data-aos="fade-right">
+                            <a href="#popular" class="btn" style="margin-right: 20px;">Buy now</a>
+                        </div>
+                        <div data-aos="fade-left">
+                            <a href="#popular" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+        </div>
+                <a class="prev_slide" href="#slide_1"></a>
+                <a class="next_slide" href="#slide_3"></a>
+            </li>
+            <li id="slide_3" class="li_slide">
+                <div class="slide-snapper home">
+
+                      
+                    <h1 data-aos="fade-up" style="text-align: center; font-size: 30px; font-weight: bolder;">
+                        Welcome to The
+                        Neighborhood Real estate</h1>
+                    <h3 data-aos="fade-up" style="text-align: center;">Find your dream place</h3>
+                    <p data-aos="fade-up" style="text-align: center;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo quod architecto
+                        est, sint optio
+                    </p>
+                    <div style="justify-content: center; display: flex;">
+                        <div data-aos="fade-right">
+                            <a href="#popular" class="btn" style="margin-right: 20px;">Buy now</a>
+                        </div>
+                        <div data-aos="fade-left">
+                            <a href="#popular" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+        </div>
+                <a class="prev_slide" href="#slide_2"></a>
+                <a class="next_slide" href="#slide_4"></a>
+            </li>
+            <li id="slide_4" class="li_slide">
+                <div class="slide-snapper home">
+
+                      
+                    <h1 data-aos="fade-up" style="text-align: center; font-size: 30px; font-weight: bolder;">
+                        Welcome to The
+                        Neighborhood Real estate</h1>
+                    <h3 data-aos="fade-up" style="text-align: center;">Find your dream place</h3>
+                    <p data-aos="fade-up" style="text-align: center;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo quod architecto
+
+                    </p>
+                    <div style="justify-content: center; display: flex;">
+                        <div data-aos="fade-right">
+                            <a href="#popular" class="btn" style="margin-right: 20px;">Buy now</a>
+                        </div>
+                        <div data-aos="fade-left">
+                            <a href="#popular" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+        </div>
+                <a class="prev_slide" href="#slide_3"></a>
+                <a class="next_slide" href="#slide_1"></a>
+            </li>
+        </ol>
+    </div>
+<br>
+
+    <!-- home section ends  -->
+
+
+    <!-- category section starts  -->
+
+    <section class="category">
+        <a data-aos="fade-right" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230505_163224-removebg-preview\ \(1\).png); 
+            background-size: 100%; background-repeat: no-repeat; background-position: center;">
+
+            <h3 style="color: white;">Studio</h3>
+        </a>
+        <a data-aos="fade-right" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; 
+            background-repeat: no-repeat; background-position: center;">
+
+            <h3 style="color: white;">One Bedroom</h3>
+        </a>
+
+        <a data-aos="fade-right" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; 
+            background-repeat: no-repeat; background-position: center;">
+            <h3 style="color: white;">Two Bedroom</h3>
+        </a>
+
+        <a data-aos="fade-left" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; 
+            background-repeat: no-repeat; background-position: center;">
+            <h3 style="color: white;">Three Bedroom</h3>
+        </a>
+
+        <a data-aos="fade-left" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; 
+            background-repeat: no-repeat; background-position: center;">
+            <h3 style="color: white;">Appartment</h3>
+        </a>
+
+        <a data-aos="fade-left" data-aos-once="true" href="#" class="box"
+            style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;">
+            <h3 style="color: white;">Appartment</h3>
+        </a>
+
+    </section>
+
+    <!-- category section ends -->
+
+    <!--About section starts-->
+
+
+    <h1 data-aos="fade-up" data-aos-once="true" id="about">About</h1>
+    <section class="About">
+        <div class="About-section-parent">
+
+            <div data-aos="fade-right" data-aos-once="true">
+                <img src="SVGs/bg7-1.svg" alt="" width="100%" height="100%">
+            </div>
+
+            <div data-aos="fade-left" data-aos-once="true" class="why-us">
+
+                <h2>Why choose us?</h2>
+                <h1>Lorem ipsum dolor sit amet consec</h1>
+               <div >
+                <p>
+                    <span>Aim</span>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Minus repellat harum libero consequuntur
+                    adipisci, delectus labore doloribus similique recusanda
+                </p>
+                <br>
+                <p>
+                    <span>Goal</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus repellat harum libero consequuntur
+                    adipisci, delectus labore doloribus similique recusandae,
+                </p>
+               </div>
+               <a href="news.html#news" id="aboutBtn" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About section ends-->
+
+    <!--Popular section starts-->
+    <h2 data-aos="fade-up" data-aos-once="true"  id="popular" class="popular-text">Popular Houses</h2>
+    <h1 data-aos="fade-down" data-aos-once="true"  id="populars">Buy</h1>
+    <section class="Popular">
+        <div class="popular-section-parent">
+
+            <div data-aos="fade-right" data-aos-once="true"  class="popular-house"
+                style="background-image: url(Images/20230502_172826.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;">
+                <b>$40,000</b>
+                <fieldset class="rating one">
+
+                    <input type="radio" id="star5" name="rating1" value="5" /><label for="star5"
+                        title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4" name="rating1" value="4" onclick="" /><label for="star4"
+                        title="Pretty good" onclick=""><span>&#9733</span></label>
+                    <input type="radio" id="star3" name="rating1" value="3" onclick="" /><label for="star3" title="Meh"
+                        onclick=""><span>&#9733</span></label>
+                    <input type="radio" id="star2" name="rating1" value="2" onclick="" /><label for="star2"
+                        title="Kinda bad" onclick=""><span>&#9733</span></label>
+                    <input type="radio" id="star1" name="rating1" value="1" onclick="" /><label for="star1"
+                        title="Sucks big time" onclick=""><span>&#9733</span></label>
+                </fieldset>
+
+
+            </div>
+            <div data-aos="fade-left" data-aos-once="true"  class="popular-house"
+                style="position: relative; background-image: url(Images/no-bg5.png); background-size: 100%; background-repeat: no-repeat; background-position: center;">
+                <div style="position: absolute; bottom: 0;">
+                <b>$40,000</b>
+
+                    <fieldset class="rating one">
+                        <input type="radio" id="star51" name="rating2" value="5" onclick="" /><label for="star51"
+                            title="Rocks!" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star41" name="rating2" value="4" onclick="" /><label for="star41"
+                            title="Pretty good" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star31" name="rating2" value="3" onclick="" /><label for="star31"
+                            title="Meh" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star21" name="rating2" value="2" onclick="" /><label for="star21"
+                            title="Kinda bad" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star11" name="rating2" value="1" onclick="" /><label for="star11"
+                            title="Sucks big time" onclick=""><span>&#9733</span></label>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div data-aos="fade-right" data-aos-once="true"  class="popular-house"
+                style="background-image: url(Images/no-bg5.png); background-size: 100%; background-repeat: no-repeat; background-position: center;">
+                <div style="position: absolute; bottom: 0;">
+                    <fieldset class="rating one">
+                <b>$40,000</b>
+
+                        <input type="radio" id="star52" name="rating3" value="5" onclick="" /><label for="star52"
+                            title="Rocks!" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star42" name="rating3" value="4" onclick="" /><label for="star42"
+                            title="Pretty good" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star32" name="rating3" value="3" onclick="" /><label for="star32"
+                            title="Meh" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star22" name="rating3" value="2" onclick="" /><label for="star22"
+                            title="Kinda bad" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star12" name="rating3" value="1" onclick="" /><label for="star12"
+                            title="Sucks big time" onclick=""><span>&#9733</span></label>
+                    </fieldset>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-once="true"  class="popular-house"
+                style="background-image: url(Images/no-bg4.png); background-size: 100%; background-repeat: no-repeat; background-position: center;">
+
+                <div style="position: absolute; bottom: 0;">
+                <b>$40,000</b>
+
+                    <fieldset class="rating one">
+                        <input type="radio" id="star53" name="rating4" value="5" onclick="" /><label for="star53"
+                            title="Rocks!" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star43" name="rating4" value="4" onclick="" /><label for="star43"
+                            title="Pretty good" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star33" name="rating4" value="3" onclick="" /><label for="star33"
+                            title="Meh" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star23" name="rating4" value="2" onclick="" /><label for="star23"
+                            title="Kinda bad" onclick=""><span>&#9733</span></label>
+                        <input type="radio" id="star13" name="rating4" value="1" onclick="" /><label for="star13"
+                            title="Sucks big time" onclick=""><span>&#9733</span></label>
+                    </fieldset>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Popular section ends-->
+
+    <!--Service section starts-->
+    <h2 data-aos="fade-up" data-aos-once="true"  id="service">Service</h2>
+    <h1 data-aos="fade-up" data-aos-once="true"  id="tirelessness">TIRELESSNESS</h1>
+    <section class="service-parent">
+        <div data-aos="fade-right" class="service-parent-box">
+            <div id="box-1">
+
+            </div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quaerat alias nulla sapiente eos
+            velit
+        </div>
+        <div data-aos="fade-down" data-aos-once="true"  class="service-parent-box">
+            <div id="box-2">
+
+            </div>
+            ipsum consequuntur exercitationem beatae tenetur ore sequi.
+        </div>
+        <div data-aos="fade-left" data-aos-once="true"  class="service-parent-box">
+            <div id="box-3">
+
+            </div>
+            Right
+            ipsum consequuntur exercitationem
+        </div>
+        <div data-aos="fade-right" data-aos-once="true"  class="service-parent-box">
+            <div id="box-4">
+
+            </div>
+            veritatis voluptatibus quae aut
+            veniam, illo iure nihil, dolore sequi.
+        </div>
+        <div data-aos="fade-up" data-aos-once="true"  class="service-parent-box">
+            <div id="box-5">
+
+            </div>
+            ipsum consequuntur exercitationem beatae tenetur e sequi.
+        </div>
+        <div data-aos="fade-left" data-aos-once="true"  class="service-parent-box">
+            <div id="box-6">
+
+            </div>
+            ipsum consequuntur exercitationem beatae tenetur ver
+        </div>
+
+    </section>
+
+    <!--Service section ends-->
+
+    <!--Order section starts-->
+    <h2 data-aos="fade-down" data-aos-once="true"  id="order">Order Now</h2>
+    <h1 data-aos="fade-right" data-aos-once="true"  id="available">24/7 AVAILABILITY</h1>
+    <section class="ordering">
+        <div data-aos="fade-right" data-aos-once="true"  class="availablity">
+            <div class="availablity-cards">
+                <div id="availability">
+
+                </div>
+                24/7 AVAILABILITY
+            </div>
+            <div data-aos="fade-up" data-aos-once="true"  class="availablity-cards">
+                <div id="phone">
+
+                </div>
+                +251987654321
+                +251987654321
+                +251987654321
+            </div>
+            <div data-aos="fade-right"  data-aos-once="true" class="availablity-cards">
+                <div id="map">
+
+                </div>
+                Ethiopia, Addis Ababa
+            </div>
+        </div>
+        <!--Ordering Section--->
+        <div class="ordering-section">
+            <div class="form-parent-1">
+                <label data-aos="fade-up" data-aos-once="true"  for="customerName">Name</label>
+                <br>
+                <input data-aos="fade-right" data-aos-once="true"  type="text" placeholder="customer's name" id="customerName">
+                <br>
+                <label data-aos="fade-up" data-aos-once="true"  for="houseNumber">House Number</label>
+                <br>
+                <input data-aos="fade-right" data-aos-once="true"  type="number" placeholder="house number" id="houseNumber">
+                <br>
+                <label data-aos="fade-up"  data-aos-once="true" for="otherDetails">Other Details</label>
+                <br>
+                <input data-aos="fade-right"  data-aos-once="true" type="text" placeholder="otherDetails" id="otherDetails">
+                <br>
+                <label data-aos="fade-up" data-aos-once="true"  for="offer">Offer</label>
+                <br>
+                <input data-aos="fade-right" data-aos-once="true"  type="number" placeholder="offer" id="offer">
+            </div>
+            <div class="form-parent-2">
+                <label data-aos="fade-up"  data-aos-once="true" for="customerEmail">Email</label>
+                <br>
+                <input data-aos="fade-left" data-aos-once="true"  type="email" placeholder="customer's email" id="customerEmail">
+                <br>
+                <label data-aos="fade-up" data-aos-once="true"  for="houseNumber">Schedule a Meeting</label>
+                <br>
+                <input data-aos="fade-left" data-aos-once="true"  type="text" placeholder="schedule a meeting" id="houseNumber">
+                <br>
+                <label data-aos="fade-up" data-aos-once="true"  for="location">Location</label>
+                <br>
+                <iframe data-aos="fade-left" data-aos-once="true"  id="location" src="news.html" frameborder="0"></iframe>
+                <br>
+            </div>
+            <div>
+
+            </div>
+
+    </section>
+
+    <!--Order section ends-->
+
+    <!--Blog section starts-->
+
+    <h2 data-aos="fade-down"  data-aos-once="true" id="blog">OUR BLOGS</h2>
+    <h1 data-aos="fade-right" data-aos-once="true"  id="stories">OUR DAILY STORIES</h1>
+    <section data-aos="fade-in"  data-aos-once="true" class="blogs-parent">
+        <div data-aos="fade-up" data-aos-once="true"  class="blogs">
+
+            <div class="blogs-child">
+
+                <video width="100%" height="100%" poster="Images/20230505_163224-removebg-preview (1).png"
+                    src="Videos/Calgary House Tour Short Form Video.mp4" controls>
+
+                </video>
+            </div>
+            <p id="blog-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, natus.</p>
+            <a href="news.html#news" class="btn" id="blog-btn" style="margin-left: 20px;">Read More</a>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true"  class="blogs">
+
+            <div class="blogs-child">
+
+                <video width="100%" height="100%" poster="Images/20230502_172826.jpg"
+                    src="Videos/House_Tour_short_clip_Check_out_our_empty_house_tour_and_other.mp4" controls>
+
+                </video>
+            </div>
+            <p id="blog-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, natus.</p>
+            <a href="news.html#news" class="btn" id="blog-btn" style="margin-left: 20px;">Read More</a>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true"  class="blogs">
+
+            <div class="blogs-child">
+
+                <video width="100%" height="100%" poster="Images/20230502_172901.jpg"
+                    src="Videos/modern_home_design_and_interior_ideas_4k_videos_home_interio.mp4" controls>
+
+                </video>
+            </div>
+            <p id="blog-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, natus.</p>
+            <a href="news.html#news" class="btn" id="blog-btn" style="margin-left: 20px;">Read More</a>
+        </div>
+    </section>
+
+    <!--Blog section ends-->
+
+    <!--Link section starts-->
+    <footer data-aos="fade-up"  data-aos-once="true" class="links">
+        <div data-aos="fade-up"  data-aos-once="true" class="footer-links">
+            <div>
+                <span>Our Offers</span>
+                <ul>
+                    <li><a href="">Apartment</a></li>
+                    <li><a href="">One Bedroom</a></li>
+                    <li><a href="">Two Bedroom</a></li>
+                    <li><a href="">Family Sized</a></li>
+                </ul>
+            </div>
+            <div >
+                <span>Quick Links</span>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Order</a></li>
+                    <li><a href="">Blogs</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>Extra Links</span>
+                <ul>
+                    <li><a href="">My Order</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">My Favourite</a></li>
+                    <li><a href="">Read More</a></li>
+                </ul>
+            </div>
+            <div >
+                <span>availablity</span>
+                <ul>
+                    <li><a href="">24/7</a></li>
+                    <li><a href="">Ethiopia, Addis Ababa</a></li>
+                    <li><a href="">+234567890</a></li>
+                    <li><a href="">SomeEmail@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="socail-media-links">
+            <ul>
+                <li><a href="">
+                        <img width="60%" height="60%" src="Icons/telegram.svg" alt="">
+                    </a></li>
+                <li>
+                    <a href="">
+                        <img width="60%" height="60%" src="Icons/email.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img width="60%" height="60%" src="Icons/phone.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img width="60%" height="60%" src="Icons/twitter.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img width="60%" height="60%" src="Icons/youtube.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true
+        });
+    </script>  -->
+</body>
+<script src="re.js"></script>
+</html>
